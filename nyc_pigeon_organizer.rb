@@ -13,5 +13,5 @@ data.each do |characteristics_key, details_hash|
     end
   end
 end
-puts bird_hash
+return bird_hash
 end
