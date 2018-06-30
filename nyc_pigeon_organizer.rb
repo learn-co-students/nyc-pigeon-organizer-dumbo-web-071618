@@ -9,7 +9,7 @@ data.each do |characteristics_key, details_hash|
       end
       bird_hash[birdie][characteristics_key] ||= []      
       if !bird_hash[birdie][characteristics_key].include?(details)
-        bird_hash[birdie][characteristics_key] << details
+        bird_hash[birdie][characteristics_key] << details.to_s
       end
     end
   end
