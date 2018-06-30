@@ -1,4 +1,5 @@
 def nyc_pigeon_organizer(data)
+  bird_hash= {}
 data.each do |characteristics_key, details_hash|
   details_hash.each do |details, birdies|
 
