@@ -1,9 +1,7 @@
 def nyc_pigeon_organizer(data)
-pigeon_data.each do |characteristics_key, details_hash|
+data.each do |characteristics_key, details_hash|
   details_hash.each do |details, birdies|
-  #puts characteristics_key
-  #puts details_hash[:color]
-  #puts details[0]
+
     birdies.each do |birdie|
       if bird_hash[birdie].nil?
         bird_hash[birdie] = {}
